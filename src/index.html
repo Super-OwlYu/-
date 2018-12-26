@@ -8,6 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
     <script src="js/flexible.js"></script>
 </head>
 
@@ -56,6 +58,13 @@
                     <dd>家常菜</dd>
                 </dl>
             </div>
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="images/光速运营唯一QQ2415813907图片0003.jpg" alt=""></li>
+                    <li class="swiper-slide"><img src="images/光速运营唯一QQ2415813907图片0004.jpg" alt=""></li>
+                    <li class="swiper-slide"><img src="images/光速运营唯一QQ2415813907图片0005.jpg" alt=""></li>
+                </ul>
+            </div>
         </section>
         <footer>
             <dl>
@@ -72,6 +81,15 @@
             </dl>
         </footer>
     </div>
+    <script>
+        new Swiper(".swiper-container", {
+
+            loop: true,
+            autoplay: {
+                delay: 1000
+            }
+        })
+    </script>
 </body>
 
 </html>
